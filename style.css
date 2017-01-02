@@ -1,12 +1,16 @@
-﻿/* WEB FONT
+﻿
 @import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
- */
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
  
 /* RESET */
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  line-height : 1em;
 }
 /* BASIC */
 body {
@@ -16,6 +20,7 @@ body {
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  cursor : pointer;
 }
 												/* Col */
 
@@ -152,7 +157,55 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-													
+
+.line {
+	width : 150px;
+	margin : 5% auto;
+	border : 1px solid #5A5A5A;
+}
+	
+
+	
+													/* Navbar */	
+	
+	
+ul.navbar {
+	list-style : none;
+	text-align : center;
+	background-color : black;
+	width : 100%;
+}
+	
+	
+ul.navbar li {
+	display : inline-block;
+	padding : 30px 40px;
+}	
+	
+ul.navbar li a {
+	color : white;
+	padding : 20px 30px;
+}	
+	
+ul.navbar li a:hover {
+	color : red;
+	border : 2px solid white;
+	box-sizing : border-box;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
 														
 													/* Skills */													
 #Skills {
@@ -161,7 +214,7 @@ a:link, a:visited, a:hover, a:active {
 													
 p.skills {
 	text-align : center;
-	font-family : "Algerian", sans-serif;
+	font-family : "Lobster", sans-serif;
 	font-size : 3.5em;
 	margin : 2% 0;
 }														
@@ -178,7 +231,7 @@ div.skills {
 }														
 
 h2.category {
-	width : 270px;
+	width : 150px;
 	border : 1px dotted;
 	border-radius : 4px;
 	background-color : #2098D1;
@@ -208,100 +261,65 @@ div.cat-ani:hover h2.category {
 }
 
 
+p.github {
+	text-align : center;
+	font-size : 1.8em;
+	color : #66665C;
+}
+
+p.github a {
+	color : #EA4A64;
+}
+
+p.github a:hover {
+	border-bottom : 2px solid #EA4A64;
+}
+
+
 													/* Contact */
 													
 div.contact {
-	background : url(images/assets/contact.jpg) no-repeat center fixed;
+	background : url(images/assets/background.jpg) no-repeat center fixed;
+	background-size : cover;	
 }													
 
-div.con {
-	text-align : center;
-	font-size : 2.5em;
-	line-height : 1em;
-	font-weight : bold;
-	padding : 3%;
-	color : white;
-}
-
-div.con span {
-	font-size : 1.5em;
-}
-
-.con-title {
-	text-align : center;
-	font-size : 36px;
-	line-height : 1em;
-	padding : 4%;
-	color : #28A9E0;
-	font-family : "Bradley Hand ITC", sans-serif;
-	font-weight : bold;
-}
-
-.part {
-	background-color : rgba(255, 255, 255, 0.7);
-	border-radius : 9px;
-	padding : 3%;
-}
 
 p.con-pra {
-	font-size : 25px;
+	font-size : 16px;
 	line-height : 1.5em;
-	font-family : "Candara",sans-serif;
+	text-align : center;
+	color : #66665C;
+	margin : 0 20%;
 }
 
-p.conlist {
-	font-size : 22px;
-	color : #28A9E0;
-	padding : 4%;
-	font-size : 25px;
+p.con-email {
+	text-align : center; 
 }
 
 a.email {
-	color : red;
+	color : #66665C;
+	padding : 0.5%;
 }
 
 a.email:hover {
-	color : white;
-	background-color : brown;
+	color : #182A3D;
+	border-bottom : 1px dotted black;
+	border-radius : 3px;
+	cursor : pointer;
 }
 
-p.conlist {
-	line-height : 1em;
+img.email {
+	width : 250px;
 }
-
-ul.conlist {
-	list-style-type : square;
-	padding : 0 12%;
-	line-height : 1.5em;
-}
-
-ul.social {
-	list-style-type : none;
-}
-
-ul.social li {
-	display : inline-block;
-}
-
-ul.social li a {
-	padding : 9%;
-	margin-left : 20%;
-}
-
-ul.social li a:hover {
-	box-shadow : 0 2px red ;
-}
-
-
 
 
 
 													/* Footer */														
 														
 .footer {
-	background-color : #2B303F;
+	background-color : #2B303F ;
 	text-align : center;
-	padding : 1%;
+	padding : 8px;
 	color : #718888;
 	font-size : 12px;
 }
@@ -325,10 +343,5 @@ ul.social li a:hover {
 
 
 
-
-
-														
-														
-														
 
 
