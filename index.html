@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Talha Faisal - Full Stack Developer</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="fonts.css" rel="stylesheet" type="text/css" />
 	</head>
 
 <body>
@@ -20,17 +21,33 @@
 	<li><a href="#">Skills</a></li>
 	<li><a href="#">Portfolio</a></li>
 	<li><a href="#">Contact</a></li>
+	
 
 </ul>
 
 
 
+												<!-- Overview -->
+
+<div class="overview">
+												
+												
+			<p class="ov-top">full-Stack <br /> Web Developer</p>
+				
+				<h1 class="ov-talha">Talha Faisal</h2>
+								
+					<h3 class="ov-php"><span class="php">PHP </span><span class="php">Python </span><span class="php">SQL/NoSQL</span> </span><span class="php">Linux</span></h3>
+								
+					<h3 class="random" id="name">test</h3>							
+												
+				<p class="con">CONTACT</p>							
+												
+												
+												
+												
 
 
-
-
-
-
+</div>
 
 
 
@@ -152,31 +169,7 @@
 
 							<p class="con-email"><a class="email" href="mailto:tfevan@gmail.com">tfevan@gmail.com</a></p>
 
-					
-							
-						<div class="line"></div>	
-						
-							
-	
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
+									
 												
 
 
@@ -191,11 +184,35 @@
 </div>
 
 
+<script>
+	
+	var names = ['Laravel Framework','CodeIgniter  Framework','Django  Framework','WordPress Devlopment'] ;
+	
+	setInterval(function() {
+	
+		var rand = Math.floor (Math.random() * 4) ;
+		
+		document.getElementById("name").innerHTML = names [rand] ;
+	}, 400);
+	
+</script>
 
 
 
 
 
+<script>
+	
+	var names = ['Laravel Framework','CodeIgniter  Framework','Django  Framework','WordPress Devlopment'] ;
+	
+	setInterval(function() {
+	
+		var rand = Math.floor (Math.random() * 4) ;
+		
+		document.getElementById("names").innerHTML = names [rand] ;
+	}, 400);
+	
+</script>
 
 
 </body>
