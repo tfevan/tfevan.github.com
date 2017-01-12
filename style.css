@@ -1,0 +1,334 @@
+﻿/* WEB FONT
+@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+ */
+ 
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* BASIC */
+body {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  color: #2e2e2e;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+												/* Col */
+
+
+.row:after {
+	content : "";
+	clear : both;
+	display : block;
+}
+
+[class*="col-"] {
+	float : left;
+	padding : 15px;
+	box-sizing : border-box;
+	width : 100%;
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width : 768px) {
+
+	.col-1 {
+		width : 8.33%;
+	}
+
+	.col-2 {
+		width : 16.66%;
+	}
+
+	.col-3 {
+		width : 25%;
+	}
+
+	.col-4 {
+		width : 33.33%;
+	}
+
+	.col-5 {
+		width : 41.66%;
+	}
+
+	.col-6 {
+		width : 50%;
+	}
+
+	.col-7 {
+		width : 58.33%;
+	}
+
+	.col-8 {
+		width : 66.66%;
+	}
+
+	.col-9 {
+		width : 75%;
+	}
+
+	.col-10 {
+		width : 83.33%;
+	}
+
+	.col-11 {
+		width : 91.66%;
+	}
+
+	.col-12 {
+		width : 100%;
+	}
+}
+
+
+/* For Tablet */
+@media only screen and (max-width : 767px) {
+	
+		
+	.col-m-1 {
+		width : 8.33%;
+	}
+
+	.col-m-2 {
+		width : 16.66%;
+	}
+
+	.col-m-3 {
+		width : 25%;
+	}
+
+	.col-m-4 {
+		width : 33.33%;
+	}
+
+	.col-m-5 {
+		width : 41.66%;
+	}
+
+	.col-m-6 {
+		width : 50%;
+	}
+
+	.col-m-7 {
+		width : 58.33%;
+	}
+
+	.col-m-8 {
+		width : 66.66%;
+	}
+
+	.col-m-9 {
+		width : 75%;
+	}
+
+	.col-m-10 {
+		width : 83.33%;
+	}
+
+	.col-m-11 {
+		width : 91.66%;
+	}
+
+	.col-m-12 {
+		width : 100%;
+	}	
+}
+
+
+@media only screen and (max-width : 600px) {
+	[class*="col-"] {
+	float : left;
+	padding : 15px;
+	box-sizing : border-box;
+	width : 100%;
+	}
+}
+
+
+													
+														
+													/* Skills */													
+#Skills {
+	margin-bottom : 0px;
+}
+													
+p.skills {
+	text-align : center;
+	font-family : "Algerian", sans-serif;
+	font-size : 3.5em;
+	margin : 2% 0;
+}														
+														
+@media (max-width : 800px) {
+	p.skills {
+		font-size : 2em;
+	}
+}														
+														
+														
+div.skills {
+	padding : 0 10%;
+}														
+
+h2.category {
+	width : 270px;
+	border : 1px dotted;
+	border-radius : 4px;
+	background-color : #2098D1;
+	transition : background-color 1s linear ;
+	text-align : center;
+	color : white;
+	padding : 12px;
+	margin : auto;
+}
+
+h3.category {
+	padding : 6% 6% 2% 6%;
+	color :	#182A3D;
+	font-size : 16px;
+}
+
+h4.category {
+	padding : 2px;
+	margin-left : 25%;
+	color : #66665C;
+	font-weight : lighter;
+}
+
+
+div.cat-ani:hover h2.category {
+	background-color : #F94F4F;
+}
+
+
+													/* Contact */
+													
+div.contact {
+	background : url(images/assets/contact.jpg) no-repeat center fixed;
+}													
+
+div.con {
+	text-align : center;
+	font-size : 2.5em;
+	line-height : 1em;
+	font-weight : bold;
+	padding : 3%;
+	color : white;
+}
+
+div.con span {
+	font-size : 1.5em;
+}
+
+.con-title {
+	text-align : center;
+	font-size : 36px;
+	line-height : 1em;
+	padding : 4%;
+	color : #28A9E0;
+	font-family : "Bradley Hand ITC", sans-serif;
+	font-weight : bold;
+}
+
+.part {
+	background-color : rgba(255, 255, 255, 0.7);
+	border-radius : 9px;
+	padding : 3%;
+}
+
+p.con-pra {
+	font-size : 25px;
+	line-height : 1.5em;
+	font-family : "Candara",sans-serif;
+}
+
+p.conlist {
+	font-size : 22px;
+	color : #28A9E0;
+	padding : 4%;
+	font-size : 25px;
+}
+
+a.email {
+	color : red;
+}
+
+a.email:hover {
+	color : white;
+	background-color : brown;
+}
+
+p.conlist {
+	line-height : 1em;
+}
+
+ul.conlist {
+	list-style-type : square;
+	padding : 0 12%;
+	line-height : 1.5em;
+}
+
+ul.social {
+	list-style-type : none;
+}
+
+ul.social li {
+	display : inline-block;
+}
+
+ul.social li a {
+	padding : 9%;
+	margin-left : 20%;
+}
+
+ul.social li a:hover {
+	box-shadow : 0 2px red ;
+}
+
+
+
+
+
+													/* Footer */														
+														
+.footer {
+	background-color : #2B303F;
+	text-align : center;
+	padding : 1%;
+	color : #718888;
+	font-size : 12px;
+}
+
+#foot-link {
+	color : #7188DD;
+}
+
+#foot-link:hover {
+	color : #207F8F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														
+														
+														
+
+
