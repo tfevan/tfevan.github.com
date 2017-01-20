@@ -1,6 +1,7 @@
-﻿/* WEB FONT
+
 @import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
- */
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple);
  
 /* RESET */
 * {
@@ -229,11 +230,12 @@ div.con span {
 
 .con-title {
 	text-align : center;
-	font-size : 36px;
+	font-size : 48px;
 	line-height : 1em;
-	padding : 4%;
+	padding : 0%;
 	color : #28A9E0;
-	font-family : "Bradley Hand ITC", sans-serif;
+	font-family : "Rancho" ;
+	text-shadow: 4px 4px 4px #aaa;
 	font-weight : bold;
 }
 
@@ -288,9 +290,6 @@ ul.social li a {
 	margin-left : 20%;
 }
 
-ul.social li a:hover {
-	box-shadow : 0 2px red ;
-}
 
 
 
