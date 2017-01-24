@@ -266,7 +266,44 @@ p.con:hover {
 	color : black;
 }	
 	
-														
+	
+
+													/* About */
+
+.about {
+	width : 80%;
+	margin : 0 auto;
+}													
+													
+
+.ab-product {
+	text-align : center;
+	background-color : white;
+	padding : 4%;
+}
+
+img.product {
+	width : 80px;
+	height : auto; 
+	margin : 0 auto;
+}
+
+p.ab-category {
+	text-align : center;
+	font-size : 1em;
+	margin : 14px auto;
+}
+
+p.ab-quote {
+	text-align : center;
+	font-size : 13px;
+	line-height :24px;
+	color : #5E5E5E;
+}
+
+
+
+	
 													/* Skills */													
 #Skills {
 	margin-bottom : 0px;
