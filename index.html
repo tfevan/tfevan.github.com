@@ -28,11 +28,12 @@
 <ul class="navbar">
 
 	<li><a href="#">Home</a></li>
+	<li><a href="#Overview">Overview</a></li>
 	<li><a href="#About">About</a></li>
 	<li><a href="#Skills">Skills</a></li>
-	<li><a href="#">Portfolio</a></li>
-	<li><a href="#">Contact</a></li>
-	
+	<li><a href="#Portfolio">Portfolio</a></li>
+	<li><a href="#Contact">Contact</a></li>
+	<li class="icon"><a href="javascript:void(0);" style="font-size : 22px" onclick="navbar()">&#9776;</a></li>
 
 </ul>
 
@@ -40,7 +41,7 @@
 
 												<!-- Overview -->
 
-<div class="overview">
+<div id="Overview" class="overview">
 												
 												
 			<p class="ov-top">full-Stack <br /> Web Developer</p>
@@ -377,6 +378,40 @@
 </div>
 </div>
 
+
+												<!-- Portfolio -->
+
+																			
+<div class="portfolio">
+												
+	<p id="Portfolio" class="pot-portfolio">Portfolio</p>												
+		
+		
+		<ul class="works">
+
+			<div class="row">
+			
+				
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
+				
+			</div>
+
+		</ul>
+
+		
+												
+												
+</div>
+
+
+												<!-- Github -->
+
+
 <div class="line"></div>
 <p class="github">Proudly hosted on <a href="http://github.com">GitHub.</a></p>
 <div class="line"></div>
@@ -385,7 +420,7 @@
 					
 
 
-						<p class="con-pra">Feel free to ask me about: job offers, projects you want me to contribute to, latest technologies I work with or any other subject you may think I can help you!</p>
+						<p id="Contact" class="con-pra">Feel free to ask me about: job offers, projects you want me to contribute to, latest technologies I work with or any other subject you may think I can help you!</p>
 						<p class="con-pra">I' available for freelance contracts, so get in touch :</p>
 
 							<p class="con-email"><a class="email" href="mailto:tfevan@gmail.com">tfevan@gmail.com</a></p>
@@ -443,7 +478,7 @@
 		var rand = Math.floor (Math.random() * 4) ;
 		
 		document.getElementById("name").innerHTML = names [rand] ;
-	}, 400);
+	}, 4000);
 	
 </script>
 
@@ -460,12 +495,27 @@
 		var rand = Math.floor (Math.random() * 4) ;
 		
 		document.getElementById("names").innerHTML = names [rand] ;
-	}, 400);
+	}, 1000);
 	
 </script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-
+<script>
+function navbar (){
+	document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+	}
+</script>
   
+
 			
 				
 
