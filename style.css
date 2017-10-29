@@ -467,7 +467,7 @@ div.contact {
 
 
 p.con-pra {
-	font-size : 16px;
+	font-size : 20px;
 	line-height : 1.5em;
 	text-align : center;
 	color : #66665C;
@@ -476,10 +476,13 @@ p.con-pra {
 
 p.con-email {
 	text-align : center; 
+	font-size : 24px;
+	margin : 1% 0;
+	
 }
 
 a.email {
-	color : #66665C;
+	color : #00004d;
 	padding : 0.5%;
 }
 
