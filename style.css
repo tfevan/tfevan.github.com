@@ -212,39 +212,6 @@ a:link, a:visited, a:hover, a:active {
 
 											/* Responsive */
 
-ul.navbar li.icon {
-	display : none;
-}
-
-
-@media screen and (max-width:950px) {
-	ul.navbar li:not(:first-child) { display : none;}
-	ul.navbar li.icon {float : right; display : inline-block;} 
-}
-
-
-
-@media screen and (max-width:950px) {
-	ul.navbar.responsive {position : relative;}
-	ul.navbar.responsive li.icon {
-								position : absolute;
-								right : 0;
-								top : 0; 
-								}
-	ul.navbar.responsive li {
-		display : inline;
-	}
-		
-		ul.navbar.responsive li a {
-			display : block;
-			text-align : left;
-		}
-		
-	ul.navbar {
-		text-align : left;
-	}	
-		
-}
 	
 
 	
