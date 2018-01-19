@@ -238,6 +238,7 @@ a:link, a:visited, a:hover, a:active {
 	background-size : cover;
 	height : 100%;
 	overflow: hidden;
+	opacity : 0.9;
 }	
 	
 
@@ -267,7 +268,16 @@ a:link, a:visited, a:hover, a:active {
 	width : 50%;
 	margin : 0 auto;
 	font-weight: bold;
+	line-height: 2.7vw;
 }
+
+
+#changeText {
+	color : #777;
+
+}
+
+
 
 
 
@@ -648,5 +658,19 @@ ul.works li img:hover {
 
 
 /* Arrow */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
