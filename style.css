@@ -187,7 +187,7 @@ a:link, a:visited, a:hover, a:active {
 
 .navbar {
 	margin-bottom: 0;
-	position: fixed;
+	
 	top : 0px;
 	text-align: center;
 	width : 100%;
@@ -263,12 +263,12 @@ a:link, a:visited, a:hover, a:active {
 .ovdes {
 	text-align: center;
 	color : white;
-	font-size: 2vw;
+	font-size: 32px;
 	font-family: 'Orbitron', sans-serif;
 	width : 50%;
 	margin : 0 auto;
 	font-weight: bold;
-	line-height: 2.7vw;
+	line-height: 38px;
 }
 
 
@@ -278,9 +278,19 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
+@media(max-width:400px){
+  .ovdes{
+       font-size:12px;
+	   line-height: 18px;
+      }
+    }
 
-
-
+@media(max-width:700px){
+  .ovdes{
+       font-size:24px;
+	   line-height: 36px;
+      }
+    }
 
 
 													/* About */
