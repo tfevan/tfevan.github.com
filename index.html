@@ -33,81 +33,78 @@
 
 
 
-												<!-- Navbar -->
-
-
-<nav class="navbar navbar-inverse">
-
-  <div class="container">
-
-    <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-
-      <a class="navbar-brand logo" href="#">TALHA FAISAL</a>
-
-    </div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-
-
-
-      <ul class="nav navbar-nav navbar-right">
-
-		<li><a href="#">Home</a></li>
-		<li><a href="#Overview">Overview</a></li>
-		<li><a href="#About">About</a></li>
-		<li><a href="#Skills">Skills</a></li>
-		<li><a href="#Portfolio">Portfolio</a></li>
-		<li><a href="#Contact">Contact</a></li>
-
-   </ul>
-
-
-
-    </div>
-
-  </div>
-
-</nav>
-
 												<!-- Overview -->
 
-<div id="Overview" class="overview">
-												
-	<div class="centered">	
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('images/assets/background.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-			
-				<h1 class="ovwho">HI, I’M TALHA FAISAL</h1>
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-				<h2 class="ovdes">
-										
-				I am full-stack based developer. <br />
-				Take a look at my work and if you like it I would love to hear from you! <br /> I design &amp; build with...	
-														
-				
-				<br />
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="images/logo.png" alt="logo">
+							<img class="logo-alt" src="images/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-				<span class="ovdes" id="changeText">HTML5, CSS3, Bootstrap</span>
-						
-				</h2>	
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Skills">Skills</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
 
-											
-		
-	</div>
+			</div>
+		</nav>
+		<!-- /Nav -->
 
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
 
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Talha F.</h1>
+							<h2 class="white-text">Full-stack web Developer</h2>
+							<p class="white-text">
+								I am a freelance web and app developer based in Dhaka, Bangladesh. 
+								I have over 11 years of experience and am always looking for new and exiting projects to take on.
+							</p>
+							<a href="#Portfolio"><button class="white-btn">Explore Works!</button></a>
+							<a href="#Contact"><button class="main-btn">Contact Me!</button></a>
+						</div>
+					</div>
+					<!-- /home content -->
 
-			
-	
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
 
-
-
+	</header>
+	<!-- /Header -->
 </div>
 
 
@@ -465,34 +462,121 @@
 </div>
 
 
-												<!-- Portfolio 	-->
+	<!-- Portfolio -->
+	<div id="Portfolio"></div>
+	<div id="portfolio" class="section md-padding bg-grey">
 
-																			
-<div class="portfolio">
-												
-	<p id="Portfolio" class="pot-portfolio">Portfolio</p>												
-		
-		
-		<ul class="works">
+		<!-- Container -->
+		<div class="container">
 
+			<!-- Row -->
 			<div class="row">
-			
-				
-				<li class="col-4 col-m-6"><a href="http://talhaf.com"><img src="images/works/talhaf.PNG"></a></li>
-				<li class="col-4 col-m-6"><img src="images/works/gcitech.PNG"></li>
-				<li class="col-4 col-m-6"><img src="images/works/gcibd.PNG"></li>
-				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
-				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
-				<li class="col-4 col-m-6"><img src="images/works/sample.PNG"></li>
-				
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Featured Works</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/PyCart.PNG" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Preject Manager</span>
+						<h3>Python / Django</h3>
+						<div class="work-link">
+							<a href="http://pycart.com" target="_blank"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/TalhaF.gif" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Portfolio</span>
+						<h3>HTML5, CSS3, JS</h3>
+						<div class="work-link">
+							<a href="http://talhaf.com" target="_blank"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/gcitech.gif" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Company</span>
+						<h3>HTML, CSS, PHP</h3>
+						<div class="work-link">
+							<a href="http://gcitech.cn" target="_blank"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/gcibd.PNG" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Company</span>
+						<h3>HTML, CSS, PHP</h3>
+						<div class="work-link">
+							<a href="http://gcibd.com" target="_blank"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/gci-mobile.gif" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Mobile Company</span>
+						<h3>HTML, CSS</h3>
+						<div class="work-link">
+							<a href="http://gci-mobile.com" target="_blank"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="images/works/blank.gif" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>None</span>
+						<h3>None</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
 			</div>
+			<!-- /Row -->
 
-		</ul>
+		</div>
+		<!-- /Container -->
 
-		
-												
-												
-</div> 
+	</div>
+	<!-- /Portfolio -->
+
 
 
 											<!-- Github -->
@@ -549,31 +633,18 @@
 <div class="footer">
 	<div class="container">
 
-			ALL CONTENT &copy; COPYRIGHT <a id="foot-link" href="http://talhaf.com">TALHA FAISAL</a> 2017. All Rights Reserved.
+			ALL CONTENT &copy; COPYRIGHT <a id="foot-link" href="http://talhaf.com">TALHA F.</a> 2018.
 
 	</div>
 </div>
 
 
 
+<!-- JS Plugins -->
 
-<script>	
-	
-var text = ["Django Framework", "Laravel Framework", "Drupal CMS", "CentOS / Ubuntu / AWS", "SYS Admin"];
-var counter = 0;
-var elem = document.getElementById("changeText");
-setInterval(change, 700);
-
-function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  if (counter >= text.length) {
-    counter = 0;
-  }
-}
-	
-	
-</script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 
 
 			
